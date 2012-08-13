@@ -3,7 +3,7 @@ hedge-brown
 
 gatekeeper + reverse proxy
 
-start by running and inspecting test/usage.js. its an example of hoe this might be used.
+start by running and inspecting test/usage.js. its an example of how this might be used.
 
 fakeserver is just that, a fake server used for simple testing of the idea
 
