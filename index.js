@@ -39,7 +39,7 @@ var hedge = function (c) {
         // if the route does not start with the hostname
         if (k.indexOf(c.host) != 0) {
             // then prepend the hostname to the route
-            options.router[c.host + k] = c.router[k];
+            options.router[c.host + ':' + c.https.port + k] = c.router[k];
         }
     }
 
